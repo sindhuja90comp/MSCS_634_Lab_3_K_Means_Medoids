@@ -2,6 +2,12 @@
 
 This repository contains the implementation and analysis of K-Means and K-Medoids clustering algorithms as part of Lab 3 for MSCS 634. The project demonstrates clustering techniques using Python in Jupyter Notebooks, applying them to sample datasets and visualizing the results.
 
+
+## Purpose of Lab Work
+
+The purpose of this lab is to implement and compare K-Means and K-Medoids clustering algorithms. The objective is to understand how these algorithms group data, evaluate their effectiveness on different datasets, and observe their behavior in terms of performance and cluster quality.
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -77,3 +83,20 @@ pip install numpy pandas matplotlib scikit-learn scikit-learn-extra seaborn
 ## Author
 
 - [Sindhuja90comp](https://github.com/sindhuja90comp)
+
+
+## Key Insights and Observations
+
+- K-Means is efficient and works well with large datasets but is sensitive to outliers.
+- K-Medoids is more robust to outliers and noise, but can be computationally intensive for large datasets.
+- Visualizations in the notebooks help demonstrate the difference in cluster assignments and centroid/medoid placement.
+- The choice of number of clusters (k) and initialization method can significantly impact results for both algorithms.
+
+## Challenges Faced and Decisions Made
+
+- Handling outliers was challenging; K-Means sometimes produced poor clusters due to extreme values.
+- Deciding on the optimal number of clusters required experimenting with different metrics (e.g., silhouette score, elbow method).
+- Using the correct library for K-Medoids (scikit-learn-extra) and ensuring compatibility with the dataset required additional setup.
+- Balancing between computation time and clustering accuracy influenced the choice between algorithms.
+
+
