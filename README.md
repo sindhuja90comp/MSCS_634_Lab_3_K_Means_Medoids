@@ -22,8 +22,6 @@ Clustering is an unsupervised machine learning technique used to group similar d
 MSCS_634_Lab_3_K_Means_Medoids/
 ├── KMeans_Clustering.ipynb
 ├── KMedoids_Clustering.ipynb
-├── data/
-│   └── <your-datasets>
 ├── README.md
 ```
 - `KMeans_Clustering.ipynb`: Implementation and analysis of K-Means algorithm.
